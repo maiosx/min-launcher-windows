@@ -754,6 +754,8 @@ RUN_KEY = r"Software\Microsoft\Windows\CurrentVersion\Run"
 
 
 def startup_command() -> str:
+    if getattr(sys, "frozen", False):          # packaged MinLauncher.exe
+        return f'"{sys.executable}" --background'
     exe = Path(sys.executable)
     pyw = exe.with_name("pythonw.exe")
     exe = pyw if pyw.exists() else exe
