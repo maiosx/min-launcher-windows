@@ -5,7 +5,7 @@ so this is a PyQt6 rewrite with the same look and behaviour.
 
 ## Run
 ```
-pip install -r requirements.txt
+pip install PyQt6
 pythonw min_launcher.py
 ```
 - **Ctrl+Alt+Space** toggles it (change with `{"hotkey": "ctrl+shift+f1"}` in `%APPDATA%\min-launcher\config.json`; Win+Space etc. are reserved by Windows)
