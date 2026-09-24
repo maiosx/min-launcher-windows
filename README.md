@@ -8,6 +8,8 @@ so this is a PyQt6 rewrite with the same look and behaviour.
 pip install PyQt6
 pythonw min_launcher.py
 ```
+Optionally run the build.bat and install.bat for an automated installation.
+
 - **Ctrl+Alt+Space** toggles it (change with `{"hotkey": "ctrl+shift+f1"}` in `%APPDATA%\min-launcher\config.json`; Win+Space etc. are reserved by Windows)
 - Tray icon: Open / Start with Windows / Quit
 - CLI: `--background` (start hidden), `--toggle`, `--install-startup`, `--uninstall-startup`
