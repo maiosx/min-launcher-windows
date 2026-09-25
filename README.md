@@ -1,4 +1,5 @@
 # Min Launcher — Windows 10/11 port
+<img width="2560" height="1440" alt="Preview" src="Preview.png" />
 
 The original is a Quickshell/Wayland (Omarchy) plugin and can't run on Windows,
 so this is a PyQt6 rewrite with the same look and behaviour. Requires Python to be installed.
