@@ -1,4 +1,4 @@
-# Min Launcher — Windows 11 port
+# Min Launcher — Windows 10/11 port
 
 The original is a Quickshell/Wayland (Omarchy) plugin and can't run on Windows,
 so this is a PyQt6 rewrite with the same look and behaviour. Requires Python to be installed.
